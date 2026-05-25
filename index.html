@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="google4b3b49ecab017375">
+    <!-- Google Analytics 4 -->
+    <!-- GA4 loaded after cookie consent -->
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{analytics_storage:'denied'});function startlyEnableGA(){gtag('consent','update',{analytics_storage:'granted'});var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-C04J9T1R99';document.head.appendChild(s);gtag('js',new Date());gtag('config','G-C04J9T1R99');}</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startly.run | Start Prepared — Race Day Checklist App for Runners</title>
+    <meta name="description" content="Never forget anything on race day. Startly helps runners prepare with smart checklists, countdowns, and Race-Day Mode. Free for iOS, Android, and Web.">
+    <meta name="keywords" content="race day checklist, running app, marathon checklist, half marathon prep, race preparation, runner app">
+    <link rel="canonical" href="https://startly.run/">
+    <link rel="icon" type="image/svg+xml" href="startly-runner-icon-512.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" integrity="sha384-QuGBSgV5Im3DzL2z+8Ko9/hqNy/N0O7zwvXAtfd1MvPKWa/UbeLV65cfm4BV5Wgq" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Startly.run | Start Prepared — Race Day Checklist App for Runners">
+    <meta property="og:description" content="Never forget anything on race day. Smart checklists, countdowns, and Race-Day Mode for runners.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://startly.run/">
+    <meta property="og:image" content="https://startly.run/startly-runner-icon-512.svg">
+    <meta property="og:site_name" content="Startly.run">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@startlyrun">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Startly.run",
+      "url": "https://startly.run",
+      "logo": "https://startly.run/startly-runner-icon-512.svg",
+      "description": "Race-day preparation app for runners. Smart checklists, countdowns, and a calm Race-Day Mode.",
+      "email": "hello@startly.run",
+      "sameAs": [
+        "https://instagram.com/startly.run",
+        "https://x.com/startlyrun",
+        "https://threads.net/@startly.run"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Startly",
+      "url": "https://app.startly.run",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "iOS, Android, Web",
+      "description": "Race-day preparation app for runners with smart checklists, countdown timers, and Race-Day Mode.",
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "name": "Free",
+          "description": "1 full-featured race trial, smart checklists, race countdown, pace calculator"
+        },
+        {
+          "@type": "Offer",
+          "price": "29.99",
+          "priceCurrency": "USD",
+          "name": "Pro",
+          "description": "Unlimited races, Race-Day Mode, smart reminders, full race history, PR tracking"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="startly-runner-icon-512.svg" alt="Startly" class="brand-icon">
+                <span class="brand-startly">Startly</span><span class="brand-dot-run">.run</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="https://app.startly.run" class="btn btn-cta" rel="noopener">Get the App</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-badge">
+                        <i class="bi bi-shield-check"></i> Trusted by runners of every distance
+                    </div>
+                    <h1 class="hero-title">
+                        Race morning should feel calm, not chaotic
+                        <span class="highlight">The checklist app that makes sure you're ready</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Forgotten gels. Missing bib pins. That 4 AM panic feeling. Startly gives you smart checklists, countdown timers, and a distraction-free Race-Day Mode — so you can focus on the finish line, not what you left at home.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="https://app.startly.run" class="btn btn-cta btn-lg" rel="noopener">
+                            <i class="bi bi-download me-2"></i>Try Your First Race Free
+                        </a>
+                        <a href="#how-it-works" class="btn btn-outline-dark btn-lg">
+                            <i class="bi bi-play-circle me-2"></i>See How It Works
+                        </a>
+                    </div>
+                    <p class="mt-3" style="font-size: 0.9rem; color: var(--text-muted);">
+                        <i class="bi bi-check-lg me-1" style="color: var(--accent-green);"></i>First race 100% free
+                        <span class="mx-2">·</span>
+                        <i class="bi bi-check-lg me-1" style="color: var(--accent-green);"></i>No credit card needed
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="phone-mockup">
+                            <div class="phone-notch"></div>
+                            <div class="phone-screen">
+                                <div class="phone-content race-card">
+                                    <h4>🏃 Boston Marathon</h4>
+                                    <p>April 21, 2026 • Boston, MA</p>
+                                    <div class="countdown">14 days away</div>
+                                </div>
+                                <div class="phone-content checklist-preview">
+                                    <h5>Race Morning Checklist</h5>
+                                    <div class="checklist-item checked">
+                                        <div class="check-box checked">✓</div>
+                                        <span>Bib number pinned</span>
+                                    </div>
+                                    <div class="checklist-item checked">
+                                        <div class="check-box checked">✓</div>
+                                        <span>Breakfast eaten</span>
+                                    </div>
+                                    <div class="checklist-item">
+                                        <div class="check-box"></div>
+                                        <span>Body Glide applied</span>
+                                    </div>
+                                    <div class="checklist-item">
+                                        <div class="check-box"></div>
+                                        <span>Gels in pocket</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Strip -->
+    <section class="trust-strip">
+        <div class="container">
+            <div class="row g-3 justify-content-center">
+                <div class="col-6 col-md-3">
+                    <div class="trust-item">
+                        <i class="bi bi-wifi-off"></i>
+                        <span>Works Offline</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="trust-item">
+                        <i class="bi bi-phone"></i>
+                        <span>iOS, Android & Web</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="trust-item">
+                        <i class="bi bi-gift"></i>
+                        <span>First Race 100% Free</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="trust-item">
+                        <i class="bi bi-infinity"></i>
+                        <span>One-Time Purchase</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pain Point Section -->
+    <section class="pain-point animate-on-scroll">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Sound Familiar?</h2>
+                <p>Every runner has had at least one of these race-morning moments</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="pain-card">
+                        <div class="pain-emoji">😰</div>
+                        <h4>The 4 AM Scramble</h4>
+                        <p>It's dark, you're half-awake, and you're tearing through your closet wondering if you packed your race bib. Spoiler: it's still on the kitchen counter.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pain-card">
+                        <div class="pain-emoji">🤦</div>
+                        <h4>The Forgotten Essential</h4>
+                        <p>You trained for months. Drove an hour to the start line. And realized you left your gels, your watch charger, or your lucky socks at home.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pain-card">
+                        <div class="pain-emoji">📝</div>
+                        <h4>The Notes App Chaos</h4>
+                        <p>Your race checklist lives in a random note somewhere between grocery lists and old passwords. Good luck finding it at 4 AM in the dark.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <p style="font-size: 1.15rem; color: var(--text-dark); font-weight: 600;">
+                    There's a better way. <a href="#how-it-works" style="color: var(--primary-blue);">Here's how Startly helps <i class="bi bi-arrow-down"></i></a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works animate-on-scroll" id="how-it-works">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Ready in 3 Steps</h2>
+                <p>From download to race-day confidence in minutes</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-icon"><i class="bi bi-plus-circle"></i></div>
+                        <h3>Add Your Race</h3>
+                        <p>Enter your race name, date, and distance. We'll create a smart checklist tailored to your event — 5K to ultra.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-icon"><i class="bi bi-check2-square"></i></div>
+                        <h3>Customize & Prepare</h3>
+                        <p>Add your own items, check things off as you pack, and get smart reminders so nothing slips through the cracks.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-icon"><i class="bi bi-sunrise"></i></div>
+                        <h3>Race Morning, Sorted</h3>
+                        <p>Enter Race-Day Mode for a calm, focused experience. Just your countdown, checklist, and weather. Breathe easy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features animate-on-scroll" id="features">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Everything You Need, Nothing You Don't</h2>
+                <p>No GPS tracking. No training plans. Just the one thing other apps ignore — making sure you're prepared.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon blue">
+                            <i class="bi bi-list-check"></i>
+                        </div>
+                        <h4>Smart Checklists</h4>
+                        <p>Auto-generated checklists based on your race distance. Customize to match your routine.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon green">
+                            <i class="bi bi-clock-history"></i>
+                        </div>
+                        <h4>Race Countdown</h4>
+                        <p>See exactly how many days until race day. Widget support for your home screen.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon orange">
+                            <i class="bi bi-sunrise-fill"></i>
+                        </div>
+                        <h4>Race-Day Mode</h4>
+                        <p>A calm, distraction-free experience for race morning. Just your checklist and weather.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon purple">
+                            <i class="bi bi-trophy"></i>
+                        </div>
+                        <h4>PR Tracking</h4>
+                        <p>Log your finish times and track personal records by distance. Celebrate your progress.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon blue">
+                            <i class="bi bi-calendar-plus"></i>
+                        </div>
+                        <h4>Calendar Export</h4>
+                        <p>Add your race to Apple Calendar, Google Calendar, or any app that supports .ics files.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon green">
+                            <i class="bi bi-calculator"></i>
+                        </div>
+                        <h4>Pace Calculator</h4>
+                        <p>Calculate your target pace, predicted finish time, and mile splits.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="features.html" class="btn btn-outline-primary btn-lg">
+                    See All Features <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing animate-on-scroll" id="pricing">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>One Price. Yours Forever.</h2>
+                <p>No subscriptions, no recurring charges. Try your first race free, then upgrade when you're ready.</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-5">
+                    <div class="pricing-card">
+                        <div class="plan-name">Free</div>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">0</span>
+                        </div>
+                        <div class="plan-description">Your first race, fully featured</div>
+                        <ul class="plan-features">
+                            <li><i class="bi bi-check-circle-fill"></i> 1 complete race experience</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Smart checklists</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Race countdown</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Pace calculator</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Calendar export</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Race-Day Mode included</li>
+                        </ul>
+                        <a href="https://app.startly.run" class="btn btn-outline-primary w-100" rel="noopener">Start Your Free Race</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <div class="pricing-card featured">
+                        <div class="featured-badge">Best Value</div>
+                        <div class="plan-name">Pro</div>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">29</span>
+                            <span class="period">.99</span>
+                        </div>
+                        <div class="plan-description">One-time purchase — yours forever</div>
+                        <ul class="plan-features">
+                            <li><i class="bi bi-check-circle-fill"></i> <strong>Unlimited races</strong></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <strong>Race-Day Mode</strong></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <strong>Smart Reminders</strong></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <strong>Full race history</strong></li>
+                            <li><i class="bi bi-check-circle-fill"></i> Complete PR tracking</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Shareable race cards</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Photo memories</li>
+                        </ul>
+                        <a href="https://app.startly.run" class="btn btn-primary w-100" rel="noopener">Get Pro — $29.99</a>
+                        <div class="pricing-guarantee">
+                            <i class="bi bi-shield-check"></i>
+                            <span>No subscriptions. Pay once, use forever. All future updates included.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Note -->
+    <section class="founder-note animate-on-scroll">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Why I Built This</h2>
+            </div>
+            <div class="founder-card">
+                <p>I've run everything from 5Ks to marathons, and the one problem no running app ever solved was the chaos of race morning. I'd train for months, only to show up at the start line wondering if I packed gels, whether my bib was pinned right, or if I'd remembered Body Glide.</p>
+                <p>Every running app wants to track your miles or plan your training. Nobody was helping with the part that actually keeps you up the night before a race: <em>Am I forgetting something?</em></p>
+                <p>So I built Startly — the app I wish I'd had before my first marathon. It's simple, focused, and built for the real moments that matter: the night before and the morning of.</p>
+                <div class="founder-sig">
+                    <div class="sig-icon"><i class="bi bi-person"></i></div>
+                    <div>
+                        <div class="sig-text">The Startly Team</div>
+                        <div class="sig-title">Runner first, developer second</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview -->
+    <section class="blog-preview animate-on-scroll">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>From the Blog</h2>
+                <p>Practical guides to help you prepare for race day, not just train for it</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <i class="bi bi-list-check"></i>
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-category">Checklist</span>
+                            <h3><a href="blog/marathon-race-day-checklist.html">The Ultimate Marathon Race Day Checklist</a></h3>
+                            <p class="blog-excerpt">Everything you need to pack and prepare, organized by when you need it.</p>
+                            <div class="blog-meta">
+                                <span>12 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card">
+                        <div class="blog-image" style="background: linear-gradient(135deg, #2D8B4E, #38a169);">
+                            <i class="bi bi-moon-stars"></i>
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-category">Preparation</span>
+                            <h3><a href="blog/night-before-race.html">What to Do the Night Before Your Race</a></h3>
+                            <p class="blog-excerpt">A calm evening routine to set yourself up for race day success.</p>
+                            <div class="blog-meta">
+                                <span>8 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card">
+                        <div class="blog-card-image" style="background: linear-gradient(135deg, #FF6B35, #ff9563);">
+                            <i class="bi bi-emoji-smile"></i>
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-category">First-Timers</span>
+                            <h3><a href="blog/first-5k-guide.html">Your First 5K? Here's What to Expect</a></h3>
+                            <p class="blog-excerpt">Everything first-time racers need to know — from packet pickup to finish line.</p>
+                            <div class="blog-meta">
+                                <span>15 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="blog.html" class="btn btn-outline-primary">
+                    View All Articles <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section animate-on-scroll">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <i class="bi bi-journal-check" style="font-size: 2.5rem; color: var(--accent-warm); margin-bottom: 1rem; display: block;"></i>
+                    <h2>Free Race-Day Checklist in Your Inbox</h2>
+                    <p class="newsletter-lead">
+                        Subscribe and get our printable race-day checklist plus weekly tips on preparation, gear, and race-morning routines.
+                    </p>
+                    <form class="newsletter-form d-flex gap-2 flex-column flex-sm-row justify-content-center" action="https://formsubmit.co/hello@startly.run" method="POST">
+                        <input type="hidden" name="_subject" value="New newsletter subscriber from Startly.run">
+                        <input type="hidden" name="_captcha" value="true">
+                        <input type="hidden" name="_next" value="https://startly.run/?subscribed=true">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="email" name="email" class="form-control" placeholder="you@email.com" required style="max-width: 320px;" aria-label="Email address">
+                        <button type="submit" class="btn btn-primary">Get the Checklist</button>
+                    </form>
+                    <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.75rem;">No spam, ever. Unsubscribe anytime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section animate-on-scroll">
+        <div class="container">
+            <div class="cta-content text-center">
+                <h2>Your Next Race Deserves a Calm Morning</h2>
+                <p>Stop worrying about what you forgot. Start worrying about your PR.</p>
+                <div class="cta-buttons">
+                    <a href="https://app.startly.run" class="btn btn-cta btn-lg" rel="noopener">
+                        <i class="bi bi-download me-2"></i>Try Your First Race Free
+                    </a>
+                </div>
+                <p class="cta-note">No credit card required • Works on iOS, Android & Web</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <span class="brand-startly">Startly</span><span class="brand-dot-run">.run</span>
+                    </div>
+                    <p class="footer-description">
+                        Race-day preparation for runners. Smart checklists, countdowns, and a calm Race-Day Mode to help you start prepared.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/startly.run" aria-label="Startly on Instagram" rel="noopener" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://x.com/startlyrun" aria-label="Startly on X" rel="noopener" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://threads.net/@startly.run" aria-label="Startly on Threads" rel="noopener" target="_blank"><i class="bi bi-threads"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Product</h5>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="https://app.startly.run" rel="noopener">Web App</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Resources</h5>
+                    <ul>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Get the App</h5>
+                    <ul>
+                        <li><span class="text-muted">iOS App Store (Coming Soon)</span></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=run.startly.app" rel="noopener" target="_blank">Google Play</a></li>
+                        <li><a href="https://app.startly.run" rel="noopener">Web App</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Startly.run. All rights reserved. Made with ❤️ for runners.</p>
+                <p class="affiliate-disclosure">Some links on this site may be affiliate links. We only recommend items that are genuinely helpful for race-day preparation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Scroll-triggered animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+            document.querySelectorAll('.animate-on-scroll, .animate-scale').forEach(function(el) {
+                observer.observe(el);
+            });
+        });
+    </script>
+<div id="cookieConsent" class="cookie-consent" style="display:none"><span>We use cookies for analytics. See our <a href="/privacy.html">Privacy Policy</a>.</span><button class="btn-accept" onclick="acceptCookies()">Accept</button><button class="btn-decline" onclick="declineCookies()">Decline</button></div><script>if(!localStorage.getItem("cookie_consent")){document.getElementById("cookieConsent").style.display="flex";}else if(localStorage.getItem("cookie_consent")==="yes"){startlyEnableGA();}function acceptCookies(){localStorage.setItem("cookie_consent","yes");document.getElementById("cookieConsent").style.display="none";startlyEnableGA();}function declineCookies(){localStorage.setItem("cookie_consent","no");document.getElementById("cookieConsent").style.display="none";}</script></body>
+</html>

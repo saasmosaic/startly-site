@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="google4b3b49ecab017375">
+    <!-- Google Analytics 4 -->
+    <!-- GA4 loaded after cookie consent -->
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{analytics_storage:'denied'});function startlyEnableGA(){gtag('consent','update',{analytics_storage:'granted'});var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-C04J9T1R99';document.head.appendChild(s);gtag('js',new Date());gtag('config','G-C04J9T1R99');}</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Startly.run</title>
+    <meta name="description" content="Get in touch with the Startly team. We'd love to hear from you about features, feedback, or just to say hi.">
+    <link rel="canonical" href="https://startly.run/contact">
+    <link rel="icon" type="image/svg+xml" href="startly-runner-icon-512.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" integrity="sha384-QuGBSgV5Im3DzL2z+8Ko9/hqNy/N0O7zwvXAtfd1MvPKWa/UbeLV65cfm4BV5Wgq" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contact - Startly.run">
+    <meta property="og:description" content="Get in touch with the Startly team. We'd love to hear from you.">
+    <meta property="og:site_name" content="Startly.run">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://startly.run/contact">
+    <meta property="og:image" content="https://startly.run/startly-runner-icon-512.svg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@startlyrun">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="startly-runner-icon-512.svg" alt="Startly" class="brand-icon">
+                <span class="brand-startly">Startly</span><span class="brand-dot-run">.run</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="https://app.startly.run" class="btn btn-cta" rel="noopener">Get the App</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>Questions, feedback, or just want to say hi? We'd love to hear from you.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section style="padding: 5rem 0; background: white;">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Contact Form -->
+                <div class="col-lg-7">
+                    <div style="background: var(--bg-light); padding: 2.5rem; border-radius: 20px;">
+                        <h2 style="margin-bottom: 0.5rem;">Send Us a Message</h2>
+                        <p style="color: var(--text-secondary); margin-bottom: 2rem;">We typically respond within 24 hours.</p>
+                        
+                        <form action="https://formsubmit.co/hello@startly.run" method="POST">
+                            <input type="hidden" name="_subject" value="New contact from Startly.run">
+                            <input type="hidden" name="_captcha" value="true">
+                            <input type="hidden" name="_next" value="https://startly.run/contact.html?sent=true">
+                            <input type="text" name="_honey" style="display:none">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label" for="first_name">First Name</label>
+                                    <input type="text" name="first_name" id="first_name" class="form-control form-control-lg" placeholder="Sarah" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label" for="last_name">Last Name</label>
+                                    <input type="text" name="last_name" id="last_name" class="form-control form-control-lg" placeholder="Runner">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" for="email">Email</label>
+                                    <input type="email" name="email" id="email" class="form-control form-control-lg" placeholder="sarah@example.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" for="subject">Subject</label>
+                                    <select name="subject" id="subject" class="form-select form-select-lg">
+                                        <option selected>Choose a topic...</option>
+                                        <option value="feedback">Feature Request / Feedback</option>
+                                        <option value="bug">Report a Bug</option>
+                                        <option value="billing">Billing Question</option>
+                                        <option value="press">Press Inquiry</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" for="message">Message</label>
+                                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Tell us what's on your mind..." required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">
+                                        Send Message <i class="bi bi-send ms-2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-lg-5">
+                    <div style="padding: 2rem 0;">
+                        <h3 style="margin-bottom: 1.5rem;">Other Ways to Reach Us</h3>
+                        
+                        <div style="margin-bottom: 2rem;">
+                            <div style="display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem;">
+                                <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--primary-blue), var(--primary-dark)); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                    <i class="bi bi-envelope" style="color: white; font-size: 1.25rem;"></i>
+                                </div>
+                                <div>
+                                    <h5 style="margin-bottom: 0.25rem;">Email</h5>
+                                    <p style="color: var(--text-secondary); margin: 0;">hello@startly.run</p>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem;">
+                                <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #ec4899, #be185d); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                    <i class="bi bi-instagram" style="color: white; font-size: 1.25rem;"></i>
+                                </div>
+                                <div>
+                                    <h5 style="margin-bottom: 0.25rem;">Instagram</h5>
+                                    <p style="color: var(--text-secondary); margin: 0;">@startly.run</p>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: flex-start; gap: 1rem;">
+                                <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #1da1f2, #0d8ecf); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                    <i class="bi bi-twitter-x" style="color: white; font-size: 1.25rem;"></i>
+                                </div>
+                                <div>
+                                    <h5 style="margin-bottom: 0.25rem;">Twitter / X</h5>
+                                    <p style="color: var(--text-secondary); margin: 0;">@startlyrun</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Shortcut -->
+                        <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 16px; margin-top: 2rem;">
+                            <h5 style="margin-bottom: 0.75rem;"><i class="bi bi-question-circle me-2" style="color: var(--primary-blue);"></i>Looking for Answers?</h5>
+                            <p style="color: var(--text-secondary); margin-bottom: 1rem; font-size: 0.95rem;">
+                                Check our FAQ for common questions about pricing, features, and how Startly works.
+                            </p>
+                            <a href="pricing.html#faqAccordion" class="btn btn-outline-primary btn-sm">View FAQ</a>
+                        </div>
+
+                        <!-- Made by Runners -->
+                        <div style="margin-top: 2rem; padding: 1.5rem; border: 2px solid var(--border-color); border-radius: 16px;">
+                            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                                <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--success), #228b46); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                    <i class="bi bi-heart-fill" style="color: white;"></i>
+                                </div>
+                                <div>
+                                    <h5 style="margin: 0;">Made by Runners</h5>
+                                </div>
+                            </div>
+                            <p style="color: var(--text-secondary); margin: 0; font-size: 0.95rem;">
+                                Startly was created by runners, for runners. We use the app ourselves and genuinely care about making your race day better. Every message is read by someone who's been on that starting line.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <span class="brand-startly">Startly</span><span class="brand-dot-run">.run</span>
+                    </div>
+                    <p class="footer-description">
+                        Race-day preparation for runners. Start prepared.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/startly.run" aria-label="Startly on Instagram" rel="noopener" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://x.com/startlyrun" aria-label="Startly on X" rel="noopener" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://threads.net/@startly.run" aria-label="Startly on Threads" rel="noopener" target="_blank"><i class="bi bi-threads"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Product</h5>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="https://app.startly.run" rel="noopener">Web App</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Resources</h5>
+                    <ul>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Get the App</h5>
+                    <ul>
+                        <li><span class="text-muted">iOS App Store (Coming Soon)</span></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=run.startly.app" rel="noopener" target="_blank">Google Play</a></li>
+                        <li><a href="https://app.startly.run" rel="noopener">Web App</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Startly.run. All rights reserved.</p>
+                <p class="affiliate-disclosure">Some links on this site may be affiliate links. We only recommend items that are genuinely helpful for race-day preparation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<div id="cookieConsent" class="cookie-consent" style="display:none"><span>We use cookies for analytics. See our <a href="/privacy.html">Privacy Policy</a>.</span><button class="btn-accept" onclick="acceptCookies()">Accept</button><button class="btn-decline" onclick="declineCookies()">Decline</button></div><script>if(!localStorage.getItem("cookie_consent")){document.getElementById("cookieConsent").style.display="flex";}else if(localStorage.getItem("cookie_consent")==="yes"){startlyEnableGA();}function acceptCookies(){localStorage.setItem("cookie_consent","yes");document.getElementById("cookieConsent").style.display="none";startlyEnableGA();}function declineCookies(){localStorage.setItem("cookie_consent","no");document.getElementById("cookieConsent").style.display="none";}</script></body>
+</html>
