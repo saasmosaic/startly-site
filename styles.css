@@ -1390,3 +1390,21 @@ section {
 }
 .cookie-consent .btn-accept { background: var(--primary-blue); color: #fff; }
 .cookie-consent .btn-decline { background: transparent; color: #ccc; border: 1px solid #555; }
+
+/* SaaSMosaic parent-brand attribution in footer */
+.footer-attribution {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 0.25rem;
+}
+
+.footer-attribution a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
+}
+
+.footer-attribution a:hover {
+    color: #ffffff;
+    border-bottom-color: rgba(255, 255, 255, 0.8);
+}
