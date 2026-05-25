@@ -1,0 +1,8 @@
+# Startly.run — robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://startly.run/sitemap.xml
+
+# Block non-content paths
+Disallow: /assets/

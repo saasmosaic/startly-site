@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="280" viewBox="0 0 400 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="runnerBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D8B4E"/>
+      <stop offset="100%" stop-color="#1A5C33"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A8D4F0" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A8D4F0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#A8D4F0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Startly.run text -->
+  <text x="200" y="50" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" font-style="italic" fill="#2563EB" letter-spacing="-1">Startly.run</text>
+  
+  <!-- Start Prepared slogan -->
+  <text x="200" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500" font-style="italic" fill="#555555" letter-spacing="0.5">Start Prepared</text>
+  
+  <!-- Runner graphic - centered -->
+  <g transform="translate(122, 100)">
+    <!-- Ground/shadow ellipse -->
+    <ellipse cx="85" cy="152" rx="45" ry="6" fill="url(#ground)"/>
+    
+    <!-- Motion lines - blue streaks -->
+    <path d="M18 62 L38 62" stroke="#4F8EF7" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    <path d="M12 74 L35 74" stroke="#4F8EF7" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+    <path d="M18 86 L38 86" stroke="#4F8EF7" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    
+    <!-- Runner - clean stick figure in sprint pose -->
+    <!-- Head - solid circle -->
+    <circle cx="95" cy="38" r="12" fill="url(#runnerBody)"/>
+    
+    <!-- Torso - angled forward -->
+    <path d="M95 50 L82 85" stroke="url(#runnerBody)" stroke-width="7" stroke-linecap="round" fill="none"/>
+    
+    <!-- Front arm - reaching forward -->
+    <path d="M90 58 L70 68 L55 60" stroke="url(#runnerBody)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- Back arm - reaching back -->
+    <path d="M90 60 L105 72 L120 68" stroke="url(#runnerBody)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- Front leg - driving forward and down -->
+    <path d="M82 85 L95 105 L105 145" stroke="url(#runnerBody)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- Back leg - extended behind -->
+    <path d="M82 85 L60 100 L42 92" stroke="url(#runnerBody)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>
